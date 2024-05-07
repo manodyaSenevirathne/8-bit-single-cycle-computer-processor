@@ -1,0 +1,73 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Mar  9 03:49:30 2022
+[*]
+[dumpfile] "/mnt/c/Users/Dell/OneDrive - University of Peradeniya/Academics/Computer Engineering/4th Semester/CO224 Computer Architecture/Icarus Verilog and GTKWave/Labs/Lab6/InstructionCacheAndMemory/group27_lab6_part3/cpu_wavedata_group27.vcd"
+[dumpfile_mtime] "Wed Mar  9 03:46:19 2022"
+[dumpfile_size] 37841
+[savefile] "/mnt/c/Users/Dell/OneDrive - University of Peradeniya/Academics/Computer Engineering/4th Semester/CO224 Computer Architecture/Icarus Verilog and GTKWave/Labs/Lab6/InstructionCacheAndMemory/group27_lab6_part3/part3_template_new.gtkw"
+[timestart] 0
+[size] 1435 802
+[pos] -1 -1
+*-12.000000 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 42
+[signals_width] 285
+[sst_expanded] 0
+[sst_vpaned_height] 322
+@28
+cpu_tb.CLK
+cpu_tb.RESET
+@22
+cpu_tb.PC[31:0]
+@28
+cpu_tb.BUSYWAIT
+@23
+cpu_tb.INSTRUCTION[31:0]
+@200
+-
+@24
+cpu_tb.group27_instruction_memory.address[5:0]
+@22
+cpu_tb.group27_instruction_memory.readinst[127:0]
+@200
+-
+@24
+cpu_tb.group27_instruction_cache.address[9:0]
+@22
+cpu_tb.group27_instruction_cache.inst_readdata[127:0]
+@200
+-
+@28
+cpu_tb.group27_data_cache.dirty
+cpu_tb.group27_data_cache.valid
+cpu_tb.group27_data_cache.tag[2:0]
+@200
+-
+@24
+cpu_tb.group27_data_cache.address[7:0]
+@22
+cpu_tb.group27_data_cache.readdata[7:0]
+cpu_tb.group27_data_cache.writedata[7:0]
+@200
+-
+@24
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[0][7:0]
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[1][7:0]
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[2][7:0]
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[3][7:0]
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[4][7:0]
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[5][7:0]
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[6][7:0]
+[color] 7
+cpu_tb.mycpu.group27RegisterFile.\register[7][7:0]
+[pattern_trace] 1
+[pattern_trace] 0
